@@ -1,0 +1,19 @@
+<template>
+    <h1>{{ title }}</h1>
+</template>
+
+<script>
+export default {
+    data() {
+        return {
+            title: 'Hola Cristopher'
+        }
+    },
+}
+</script>
+
+<style scoped>
+    #app {
+        background-color: blue;
+    }
+</style>
